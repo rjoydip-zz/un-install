@@ -21,7 +21,7 @@ module.exports = (async () => {
 				message: 'Run npm scripts via terminal',
 				name: 'value',
 				paginated: true,
-				choices: Object.keys(pkgDepList).length ? Object.keys(flattenObjectStrict(pkgDepList)).map(key => key) : ['Quit']
+				choices: typeof pkgDepList === 'object' && Object.keys(pkgDepList).length ? Object.keys(flattenObjectStrict(pkgDepList)).map(key => key) : ['Quit']
 			}
 		])
 		.then(answers => (
