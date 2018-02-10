@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm i -g un-install
+$ npm i -g @rjoydip/un-install
 ```
 
 ## Usage

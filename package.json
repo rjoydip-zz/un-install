@@ -1,6 +1,6 @@
 {
-  "name": "un-install",
-  "version": "1.0.0",
+  "name": "@rjoydip/un-install",
+  "version": "1.0.1",
   "description": "Uninstall package dependencies via terminal",
   "main": "index.js",
   "bin": {
